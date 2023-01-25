@@ -9,12 +9,12 @@
         <nav class="navigation">
           <ul class="navigation-list">
             <li class="navigation-item">
-             <a class="navigation-logo" href="about.html">
+             <a class="navigation-logo" href="index.html">
                <span class="visually-hidden">Логотип "Седона"</span>
              </a>
            </li>
            <li>
-             <a class="navigation-link" href="about.html">На главную</a>
+             <a class="navigation-link" href="index.html">На главную</a>
            </li>
            <li>
              <a class="navigation-link" href="faq.html">О Седоне</a>
@@ -41,17 +41,11 @@
        </header>
        <main class="main-inner">
         <header class="header-inner">
-            <h1>Гостиницы Седоны</h1>
-            <nav>
-        <ul class="breadcrumbs">
-            <li class="breadcrumbs-item">
+            <h1 class="catalog-title">Гостиницы Седоны</h1>
+            <nav class="breadcrumbs">
               <a class="breadcrumbs-link" href="index.html">
                 <span class="visually-hidden">Главная</span></a>
-            </li>
-            <li class="breadcrumbs-item">
               <a class="breadcrumbs-link">Гостиницы</a>
-            </li>
-          </ul>
           </nav>
         </header>
 
@@ -131,6 +125,7 @@
                 <a class="button" href="#">
                     <span class="visually-hidden">Показать список</span>
                 </a>
+
                 <div class="hotel-card">
                     <a class="hotel-card-link" href="product.html">
                       <img class="hotel-card-image" src=""
@@ -145,7 +140,8 @@
                     <a class="hotel-card-button button" href="#">
                         В избранное</a>
                         <span class="visually-hidden stars">5 звёзд</span>
-                        <span class="rating">Рейтинг: 8,5</span>
+                        <span class="rating">Рейтинг:
+                          <span class="rating-value">8,5</span></span>
                   </div>
                   <div class="hotel-card">
                     <a class="hotel-card-link" href="product.html">
@@ -162,7 +158,8 @@
                     href="#">
                         В избранном</a>
                         <span class="visually-hidden stars">5 звёзд</span>
-                        <span class="rating">Рейтинг: 9,2</span>
+                        <span class="rating">Рейтинг:
+                        <span class="rating-value">9,2</span></span>
                   </div>
                   <div class="hotel-card">
                     <a class="hotel-card-link" href="product.html">
@@ -178,7 +175,8 @@
                     <a class="hotel-card-button button" href="#">
                         В избранное</a>
                         <span class="visually-hidden stars">3 звезды</span>
-                        <span class="rating">Рейтинг: 6,9</span>
+                        <span class="rating">Рейтинг:
+                          <span class="rating-value">6,9</span></span>
                   </div>
                   <div class="hotel-card">
                     <a class="hotel-card-link" href="product.html">
@@ -194,8 +192,10 @@
                     <a class="hotel-card-button button" href="#">
                         В избранное</a>
                         <span class="visually-hidden stars">2 звезды</span>
-                        <span class="rating">Рейтинг: 5</span>
+                        <span class="rating">Рейтинг:
+                          <span class="rating-value">5</span></span>
                   </div>
+
                   <ul class="pagination">
                     <li class="pagination-item">
                       <a class="pagination-link pagination-current">1</a>
@@ -210,21 +210,15 @@
                       <a class="pagination-link" href="#">4</a>
                     </li>
                     <li class="pagination-item">
-                        <button class="pagination-show-more"
-                        type="button">
-                        <span class="visually-hidden">
-                         Показать все страницы
-                        </span>
-                    </button>
+                      <a class="pagination-link pagination-white" href="#">...</a>
+                    </li>
                       </li>
                     <li class="pagination-item">
                       <a class="pagination-link" href="#">10</a>
                     </li>
                   </ul>
         </section>
-</main>
 
-<footer class="page-footer">
         <section class="newsletter">
             <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
             <h3 class="newsletter-subtitle">Только полезная информация и
@@ -237,10 +231,14 @@
                 name="newsletter-email" required>
               </label>
               <button class="button newsletter-button" type="submit">
-               <span class="visually-hidden">Подписаться</span>
+               <span class="subscribe">Подписаться</span>
               </button>
             </form>
           </section>
+
+</main>
+
+<footer class="page-footer">
         <section class="footer-social">
           <ul class="footer-social-list">
             <li class="footer-social-item">
@@ -262,8 +260,8 @@
             <a class="footer-phone" href="tel:+78128121212">
               +7 (812) 812-12-12</a>
 
-            <a class="htmlacademy-link" href="https://htmlacademy.ru/">
-              .html academy</a>
+            <a class="htmlacademy-link visually-hidden" href="https://htmlacademy.ru/">
+              html academy</a>
         </section>
       </footer>
 
