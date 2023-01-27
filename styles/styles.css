@@ -5,10 +5,23 @@
     src: url(../fonts/ptsans-400.woff2) format(woff2);
     font-display: swap;
 }
-
 @font-face {
-    font-family: "PT sans";
-    font-style: bold;
+    font-family: "PT sans bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/ptsans-700.woff2) format(woff2);
+    font-display: swap;
+}
+@font-face {
+    font-family: "PT sans italic";
+    font-style: italic;
+    font-weight: 400;
+    src: url(../fonts/ptsans-400.woff2) format(woff2);
+    font-display: swap;
+}
+@font-face {
+    font-family: "PT sans bold italic";
+    font-style: italic;
     font-weight: 700;
     src: url(../fonts/ptsans-700.woff2) format(woff2);
     font-display: swap;
