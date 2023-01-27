@@ -8,14 +8,12 @@
 
   <body>
     <header class="page-header">
+      <a class="navigation-logo" href="">
+        <span class="visually-hidden">Логотип "Седона"</span>
+        <img src="images/sedona-logo.svg" width="140" height="70" alt="">
+      </a>
       <nav class="navigation">
         <ul class="navigation-list">
-          <li class="navigation-item">
-            <a class="navigation-logo" href="index.html">
-              <span class="visually-hidden">Логотип "Седона"</span>
-              <img src="images/sedona-logo.svg" width="140" height="70" alt="">
-            </a>
-          </li>
           <li>
             <a class="navigation-link" href="index.html">На главную</a>
           </li>
@@ -45,14 +43,18 @@
         </ul>
       </nav>
     </header>
-    <main class="main-index">
-      <h1 class="visually-hidden">Welcome to the gorgeous SEDONA. "Because the Grand Canyon sucks!"</h1>
-      <img src="images/welcome.svg" width="458" height="352" alt="">
-      <h2>Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
-      <h3>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</h3>
 
+    <section class="hero">
+      <h1 class="visually-hidden">Welcome to the gorgeous SEDONA. "Because the Grand Canyon sucks!"</h1>
+      <img src="images/welcome-background.jpg" width="1200" height="485" alt="Вид на горы в Седоне">
+      <img src="images/welcome-title.svg" width="458" height="352" alt="">
+    </section>
+
+    <main class="main-index">
       <section class="advantages">
-        <h2 class="visually-hidden">Преимущества</h2>
+        <h2 class="advantages-lead-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
+        <h3 class="advantages-lead-subtitle">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</h3>
+        <h3 class="visually-hidden">Преимущества</h3>
         <ul class="advantages-list">
           <li class="advantages-item">
             <h3 class="advantages-title">Настоящий городок</h3>
@@ -76,11 +78,11 @@
           </li>
         </ul>
       </section>
-      <h2>Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
-      <h3>Опытный персонал и качественное обслуживание!</h3>
 
       <section class="services">
-        <h2 class="services-title">Популярные услуги</h2>
+        <h2 class="services-lead-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
+        <h3 class="services-lead-subtitle">Опытный персонал и качественное обслуживание!</h3>
+        <h3 class="services-title visually-hidden">Популярные услуги</h3>
         <ul class="services-list">
           <li class="services-item">
             <img src="images/service/service-icon-1.SVG.svg" width="75" height="72" alt="Домик">
@@ -99,10 +101,14 @@
           </li>
         </ul>
       </section>
-      <h2>Заинтересовались?</h2>
-      <h3>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</h3>
-      <a class="button" href="catalog.html">Поиск гостиницы в Седоне</a>
+
+      <h2 class="index-popup-title">Заинтересовались?</h2>
+      <h3 class="index-popup-subtitle">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
+        гостиниц в Седоне</h3>
+      <a class="button button-popup" href="popup.html">Поиск гостиницы в Седоне</a>
+
       <section class="newsletter">
+        <img src="images/Subscribe.jpg" width="1200" height="415" alt="размытое изображение гор">
         <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
         <h3 class="newsletter-subtitle">Только полезная информация и никакого спама, честное бойскаутское!</h3>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -118,6 +124,7 @@
 
     <footer class="page-footer">
       <section class="footer-social">
+        <h2 class="visually hidden">Давайте дружить!</h2>
         <ul class="footer-social-list">
           <li class="footer-social-item">
             <a class="button" href="#">
