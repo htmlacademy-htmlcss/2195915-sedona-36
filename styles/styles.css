@@ -5,6 +5,7 @@
     src: url(../fonts/ptsans-400.woff2) format(woff2);
     font-display: swap;
 }
+
 @font-face {
     font-family: "PT sans";
     font-style: normal;
@@ -21,33 +22,50 @@ body {
     line-height: 24px;
     color: #000000;
     background-color: #ffffff;
-  }
+}
 
-  .page-header {
+/* header */
+.page-header {
     font-size: 20px;
     font-weight: 700;
-  }
+}
 
 .navigation-list {
-list-style: none;
+    list-style: none;
 }
 
 .navigation-list-user {
     list-style: none;
 }
 
-  .navigation-link {
+.navigation-link {
     color: #000000;
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
     text-transform: capitalize;
-  }
+}
 
-  .navigation-link-user {
+.navigation-link-user {
     color: #000000;
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
-  }
+}
+
+.hero {
+    color: #000000;
+    background-color: #82B3D3;
+    background-image: url(../images/welcome-background.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 485px;
+    text-align: center;
+}
+
+.hero-decoration {
+    position: relative;
+    top: 26px;
+}
