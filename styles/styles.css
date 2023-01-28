@@ -12,22 +12,13 @@
     src: url(../fonts/ptsans-700.woff2) format(woff2);
     font-display: swap;
 }
-@font-face {
-    font-family: "PT sans";
-    font-style: italic;
-    font-weight: 400;
-    src: url(../fonts/ptsans-400.woff2) format(woff2);
-    font-display: swap;
-}
-@font-face {
-    font-family: "PT sans";
-    font-style: italic;
-    font-weight: 700;
-    src: url(../fonts/ptsans-700.woff2) format(woff2);
-    font-display: swap;
-}
+
 body {
     font-family: "PT sans", "Arial", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    background-color: #ffffff;
   }
