@@ -92,9 +92,9 @@ body {
 
 .advantages-title {
     font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-text-transform: uppercase;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
 }
 
 .advantages-description {
@@ -112,4 +112,64 @@ text-transform: uppercase;
 .advantages-description-white {
     color: #ffffff;
     background-color: #82B3D3;
+}
+
+.services-lead-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.services-lead-subtitle {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.services-list {
+    list-style: none;
+}
+
+.services-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.services-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.index-popup-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.index-popup-subtitle {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.button-popup {
+    color: #ffffff;
+    background-color: #756157;
+    width: 376px;
+    height: 52px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 4px;
 }
