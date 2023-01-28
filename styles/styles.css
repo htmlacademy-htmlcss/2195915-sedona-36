@@ -73,6 +73,10 @@ body {
     text-align: center;
 }
 
+.advantages-list {
+    list-style: none;
+}
+
 .advantages-lead-title {
     font-weight: 700;
     font-size: 30px;
@@ -94,5 +98,18 @@ text-transform: uppercase;
 }
 
 .advantages-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
 
+.advantages-title-white {
+    color: #ffffff;
+    background-color: #82B3D3;
+}
+
+.advantages-description-white {
+    color: #ffffff;
+    background-color: #82B3D3;
 }
