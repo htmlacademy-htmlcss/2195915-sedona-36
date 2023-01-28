@@ -39,7 +39,6 @@ body {
 }
 
 .navigation-link {
-    color: #000000;
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
@@ -47,7 +46,6 @@ body {
 }
 
 .navigation-link-user {
-    color: #000000;
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
@@ -55,7 +53,6 @@ body {
 }
 
 .hero {
-    color: #000000;
     background-color: #82B3D3;
     background-image: url(../images/welcome-background.jpg);
     background-size: 100% auto;
@@ -68,4 +65,34 @@ body {
 .hero-decoration {
     position: relative;
     top: 26px;
+}
+
+/* main-index */
+
+.main-index {
+    text-align: center;
+}
+
+.advantages-lead-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.advantages-lead-subtitle {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.advantages-title {
+    font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-transform: uppercase;
+}
+
+.advantages-description {
+
 }
