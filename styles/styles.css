@@ -172,6 +172,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     border-radius: 4px;
+    border: none;
 }
 
 .newsletter {
@@ -216,4 +217,78 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #000000;
+}
+
+.catalog-container {
+    background-color: #82B3D3;
+    background-image: url(../images/filter.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 412px;
+    color: #ffffff;
+}
+
+.catalog-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+}
+
+.breadcrumbs {
+    list-style: none;
+}
+
+.breadcrumbs-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.catalog-filter-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.catalog-filter-list {
+    list-style: none;
+}
+
+.infrastructure-input {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.button-apply {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #82B3D3;
+    width: 191px;
+    height: 36px;
+    align-items: center;
+    padding: 8px 50px;
+    border: none;
+    border-radius: 4px;
+}
+
+.button-reset {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 191px;
+    height: 36px;
+    align-items: center;
+    padding: 8px 50px;
+    border: none;
+    border-radius: 4px;
 }
