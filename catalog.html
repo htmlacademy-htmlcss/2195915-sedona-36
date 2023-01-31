@@ -27,13 +27,14 @@
         </ul>
         <ul class="navigation-list-user">
           <li>
-            <a class="navigation-link-user" href="#">
+            <a class="navigation-link-user navigation-user-search" href="#">
               <span class="visually-hidden">Поиск</span>
             </a>
           </li>
           <li>
-            <a class="navigation-link-user" href="#">
-              <span class="visually-hidden">Нравится</span>
+            <a class="navigation-link-user navigation-user-favourites" href="#">
+              <span class="visually-hidden">Избранное</span>
+              <span class="favourites-value">12</span>
             </a>
           </li>
           <li>
@@ -114,17 +115,17 @@
         <select class="select-control" aria-label="sorting">
           <option value="cheap">Сначала дешёвые</option>
         </select>
-        <button class="button-sorting button-current" type="button">
+        <button class="button-sorting view-current" type="button">
           <span class="visually-hidden">Показать карточки</span>
-          <img src="images/view/view-1.svg" width="48" height="48" alt="">
+          <span class="view-tile"></span>
         </button>
         <button class="button-sorting" type="button">
           <span class="visually-hidden">Показать во всю ширину</span>
-          <img src="images/view/view-2.svg" width="48" height="48" alt="">
+          <span class="view-slideshow"></span>
         </button>
         <button class="button-sorting" type="button">
           <span class="visually-hidden">Показать список</span>
-          <img src="images/view/view-3.svg" width="48" height="48" alt="">
+          <span class="view-list"></span>
         </button>
 
         <div class="hotel-card">
