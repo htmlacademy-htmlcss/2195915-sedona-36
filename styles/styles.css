@@ -337,7 +337,6 @@ body {
 .button-sorting {
     background-color: #ffffff;
     color: #000000;
-    border: none;
     width: 48px;
     height: 48px;
     border: 2px solid #E5E5E5;
@@ -375,6 +374,7 @@ body {
     color: #333333;
 }
 
+/* hotel cards */
 .hotel-card {
     align-items: flex-start;
     padding: 20px;
@@ -453,6 +453,7 @@ body {
     border-radius: 4px;
 }
 
+/* pagination */
 .pagination-list {
     list-style: none;
 }
