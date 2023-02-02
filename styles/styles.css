@@ -2,7 +2,7 @@
     font-family: "PT sans";
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/ptsans-400.woff2) format(woff2);
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
 }
 
@@ -10,8 +10,14 @@
     font-family: "PT sans";
     font-style: normal;
     font-weight: 700;
-    src: url(../fonts/ptsans-700.woff2) format(woff2);
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 body {
@@ -53,14 +59,14 @@ body {
 }
 
 .navigation-user-search {
-    background-image: url(../images/search.svg);
+    background-image: url("../images/search.svg");
     background-repeat: no-repeat;
     width: 44px;
     height: 64px;
 }
 
 .navigation-user-favourites {
-    background-image: url(../images/heart-icon.svg);
+    background-image: url("../images/heart-icon.svg");
     background-repeat: no-repeat;
     width: 44px;
     height: 64px;
@@ -73,7 +79,7 @@ body {
     color: #ffffff;
     font-weight: 400;
     font-size: 10px;
-    line-height: 10px;
+    line-height: 15px;
     text-align: center;
     border-radius: 10px;
     padding: 2px 3px;
@@ -82,12 +88,13 @@ body {
 /* hero */
 .hero {
     background-color: #82B3D3;
-    background-image: url(../images/welcome-background.jpg);
+    background-image: url("../images/welcome-background.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
     width: 1200px;
     height: 485px;
     text-align: center;
+    margin: auto;
 }
 
 .hero-decoration {
@@ -116,7 +123,7 @@ body {
 .advantages-lead-subtitle {
     font-weight: 400;
     font-size: 22px;
-    line-height: 26px;
+    line-height: 33px;
 }
 
 .advantages-title {
@@ -194,8 +201,8 @@ body {
 .button-popup {
     color: #ffffff;
     background-color: #756157;
-    width: 376px;
-    height: 52px;
+    min-width: 376px;
+    min-height: 52px;
     font-weight: 700;
     font-size: 20px;
     line-height: 36px;
@@ -208,13 +215,14 @@ body {
 
 /* newsletter */
 .newsletter {
-    background-image: url(../images/subscribe.jpg);
+    background-image: url("../images/subscribe.jpg");
     background-repeat: no-repeat;
     background-color: #82B3D3;
     background-size: 100% auto;
     width: 1200px;
     height: 415px;
     color: #ffffff;
+    margin: auto;
 }
 
 .newsletter-title {
@@ -245,7 +253,7 @@ body {
 .footer-phone {
     font-weight: 400;
     font-size: 40px;
-    line-height: 40px;
+    line-height: 48px;
     text-transform: uppercase;
     text-decoration: none;
     color: #000000;
@@ -254,12 +262,11 @@ body {
 /* catalig filter */
 .catalog-container {
     background-color: #82B3D3;
-    background-image: url(../images/filter.jpg);
-    background-size: 100% auto;
+    background-image: url("../images/filter.jpg");
+    background-size: 1200px 412px;
     background-repeat: no-repeat;
-    width: 1200px;
-    height: 412px;
     color: #ffffff;
+    margin: auto;
 }
 
 .catalog-title {
@@ -305,8 +312,8 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     background-color: #82B3D3;
-    width: 191px;
-    height: 36px;
+    min-width: 191px;
+    min-height: 36px;
     align-items: center;
     padding: 8px 50px;
     border: none;
@@ -319,8 +326,8 @@ body {
     line-height: 20px;
     text-transform: uppercase;
     color: #ffffff;
-    width: 191px;
-    height: 36px;
+    min-width: 191px;
+    min-height: 36px;
     align-items: center;
     padding: 8px 50px;
     border: none;
@@ -337,14 +344,14 @@ body {
 .button-sorting {
     background-color: #ffffff;
     color: #000000;
-    width: 48px;
-    height: 48px;
+    min-width: 48px;
+    min-height: 48px;
     border: 2px solid #E5E5E5;
     border-radius: 4px;
 }
 
 .view-tile {
-    background-image: url(../images/view/variant-tile.svg);
+    background-image: url("../images/view/variant-tile.svg");
     background-repeat: no-repeat;
 }
 
@@ -354,12 +361,12 @@ body {
 }
 
 .view-slideshow {
-    background-image: url(../images/view/variant-slideshow.svg);
+    background-image: url("../images/view/variant-slideshow.svg");
     background-repeat: no-repeat;
 }
 
 .view-list {
-    background-image: url(../images/view/variant-list.svg);
+    background-image: url("../images/view/variant-list.svg");
     background-repeat: no-repeat;
 }
 
@@ -420,8 +427,8 @@ body {
     text-decoration: none;
     border: none;
     border-radius: 4px;
-    width: 140px;
-    height: 36px;
+    min-width: 140px;
+    min-height: 36px;
 }
 
 .button-blue {
@@ -432,11 +439,27 @@ body {
     background-color: #7DB54F;
 }
 
-.stars {
-    background-image: url(../images/star.svg);
+.stars-four {
+    background-image: url("../images/stars-4.svg");
     background-repeat: no-repeat;
-    width: 18px;
-    height: 17px;
+    width: 140px;
+    height: 37px;
+    background-position: center;
+}
+
+.stars-three {
+    background-image: url("../images/stars-3.svg");
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 37px;
+    background-position: center;
+}
+
+.stars-two {
+    background-image: url("../images/stars-2.svg");
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 37px;
     background-position: center;
 }
 
