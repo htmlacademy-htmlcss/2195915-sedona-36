@@ -30,10 +30,21 @@ body {
     background-color: #ffffff;
 }
 
+.visually-hidden {
+    position: absolute;
+    font-size: 0;
+    visibility: hidden;
+    color: transparent;
+}
+
 /* header */
 .page-header {
     font-size: 20px;
     font-weight: 700;
+}
+
+.header-current {
+    border-bottom: 2px solid #756257;
 }
 
 .navigation-list {
@@ -45,10 +56,9 @@ body {
 }
 
 .navigation-link {
-    font-size: 20px;
-    font-weight: 700;
+    line-height: 24px;
     text-decoration: none;
-    text-transform: capitalize;
+    color: #000000;
 }
 
 .navigation-link-user {
@@ -58,14 +68,14 @@ body {
     text-transform: uppercase;
 }
 
-.navigation-user-search {
+.search-icon {
     background-image: url("../images/search.svg");
     background-repeat: no-repeat;
     width: 44px;
     height: 64px;
 }
 
-.navigation-user-favourites {
+.heart-icon {
     background-image: url("../images/heart-icon.svg");
     background-repeat: no-repeat;
     width: 44px;
@@ -85,6 +95,20 @@ body {
     padding: 2px 3px;
 }
 
+.button-user {
+    background-color: #756157;
+    color: #ffffff;
+    width: 160px;
+    height: 36px;
+    background: #756157;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 34px;
+}
+
 /* hero */
 .hero {
     background-color: #82B3D3;
@@ -97,9 +121,15 @@ body {
     margin: auto;
 }
 
+.hero-title {
+    margin-top: 51px;
+}
+
 .hero-decoration {
-    position: relative;
-    top: 26px;
+    background-image: url("../images/welcome-ladder.svg");
+    width: 1200px;
+    height: 57px;
+    margin-top: 19px;
 }
 
 /* main-index */
@@ -133,6 +163,23 @@ body {
     text-transform: uppercase;
 }
 
+.index-box {
+    width: 400px;
+    height: 384px;
+}
+
+.box-dark {
+    background-color: #82B3D3;
+}
+
+.box-half {
+    background: rgba(131, 179, 211, 0.2);
+}
+
+.box-light {
+    background: rgba(131, 179, 211, 0.12);
+}
+
 .advantages-description {
     font-weight: 400;
     font-size: 18px;
@@ -141,6 +188,10 @@ body {
 }
 
 .advantages-title-white {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
     color: #ffffff;
     background-color: #82B3D3;
 }
@@ -167,6 +218,28 @@ body {
 
 .services-list {
     list-style: none;
+}
+
+
+.icon-home {
+    background-image: url("../images/service/service-icon-1.svg");
+    background-repeat: no-repeat;
+    width: 76px;
+    height: 72px;
+}
+
+.icon-eat {
+    background-image: url("../images/service/service-icon-2.svg");
+    background-repeat: no-repeat;
+    width: 75px;
+    height: 70px;
+}
+
+.icon-souvenir {
+    background-image: url("../images/service/service-icon-3.svg");
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 76px;
 }
 
 .services-title {
@@ -211,6 +284,10 @@ body {
     text-transform: uppercase;
     border-radius: 4px;
     border: none;
+}
+
+.popup-link {
+    text-decoration: none;
 }
 
 /* newsletter */
