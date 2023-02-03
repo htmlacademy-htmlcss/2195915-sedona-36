@@ -397,7 +397,7 @@ body {
     min-height: 120px;
     align-items: center;
     padding: 40px 70px 30px;
-  }
+}
 
 .footer-social-list {
     list-style: none;
@@ -419,20 +419,33 @@ body {
     color: #000000;
 }
 
+
 /* catalog filter */
+
 .catalog-container {
     background-color: #82B3D3;
     background-image: url("../images/filter.jpg");
-    background-size: 1200px 412px;
+    background-size: 100% auto;
+    width: 1200px;
+    height: 415px;
     background-repeat: no-repeat;
     color: #ffffff;
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.filter-container {
+    width: 1060px;
+    padding: 0;
+    margin: 0;
 }
 
 .catalog-title {
     font-weight: 700;
     font-size: 60px;
     line-height: 78px;
+    margin: 0;
 }
 
 /* breadcrumbs */
@@ -446,6 +459,14 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
+    padding: 0;
+    margin: 0;
+}
+
+.catalog-filter {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .catalog-filter-title {
@@ -472,8 +493,8 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     background-color: #82B3D3;
-    min-width: 191px;
-    min-height: 36px;
+    width: 191px;
+    height: 36px;
     align-items: center;
     padding: 8px 50px;
     border: none;
@@ -486,12 +507,22 @@ body {
     line-height: 20px;
     text-transform: uppercase;
     color: #ffffff;
-    min-width: 191px;
-    min-height: 36px;
+    background-color: transparent;
+    width: 191px;
+    height: 36px;
     align-items: center;
     padding: 8px 50px;
     border: none;
     border-radius: 4px;
+}
+
+.sorting-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+    width: 1060px;
 }
 
 .result-hotels {
@@ -499,20 +530,31 @@ body {
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
+    padding-right: 180px;
+}
+
+.select-control {
+    margin-right: 70px;
+    padding: 14px 20px;
 }
 
 .button-sorting {
     background-color: #ffffff;
     color: #000000;
-    min-width: 48px;
-    min-height: 48px;
+    width: 48px;
+    height: 48px;
     border: 2px solid #E5E5E5;
     border-radius: 4px;
+    padding: 0;
+    margin-left: 0;
 }
 
 .view-tile {
     background-image: url("../images/view/variant-tile.svg");
     background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 16px 14px;
+    margin-right: 8px;
 }
 
 .view-current {
@@ -523,11 +565,16 @@ body {
 .view-slideshow {
     background-image: url("../images/view/variant-slideshow.svg");
     background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 16px 14px;
+    margin-right: 8px;
 }
 
 .view-list {
     background-image: url("../images/view/variant-list.svg");
     background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 16px 14px;
 }
 
 .select-control {
@@ -542,6 +589,14 @@ body {
 }
 
 /* hotel cards */
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1060px;
+    margin: 0 auto;
+}
+
+
 .hotel-card {
     align-items: flex-start;
     padding: 20px;
@@ -550,6 +605,12 @@ body {
     height: 438px;
     border: 1px solid #E6E6E6;
     border-radius: 4px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.hotel-card:nth-child(3) {
+    margin-right: 0;
 }
 
 .hotel-card-link {
@@ -637,8 +698,19 @@ body {
 }
 
 /* pagination */
+
 .pagination-list {
     list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: 70px;
+
+}
+
+.pagination-wrapper {
+    display: flex;
+    align-items: flex-start;
 }
 
 .pagination-item {
@@ -651,11 +723,15 @@ body {
     font-size: 20px;
     line-height: 36px;
     text-transform: uppercase;
+    margin: 0;
+    margin-right: 8px;
+
 }
 
 .pagination-link {
     color: #ffffff;
     text-decoration: none;
+    position: relative;
 }
 
 .pagination-current {
@@ -671,4 +747,8 @@ body {
 .newsletter-catalog {
     text-align: center;
     color: #000000;
+}
+
+.pagination-position {
+    position: relative;
 }
