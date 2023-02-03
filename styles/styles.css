@@ -70,7 +70,7 @@ body {
 }
 
 .header-current {
-    padding-bottom: 20px;
+    padding-bottom: 18px;
     border-bottom: 2px solid #756257;
 }
 
@@ -185,9 +185,22 @@ body {
     text-align: center;
 }
 
+.page-container {
+    margin: 0 auto;
+}
+
 /* advantages */
 .advantages-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.advantages-images {
+    display: block;
 }
 
 .advantages-lead-title {
@@ -265,6 +278,11 @@ body {
 
 .services-list {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -347,6 +365,13 @@ body {
     height: 415px;
     color: #ffffff;
     margin: auto;
+    padding: 75px 258px;
+}
+
+.newsletter-container {
+    width: 500px;
+    height: 216px;
+    margin: 0 auto;
 }
 
 .newsletter-title {
