@@ -57,22 +57,30 @@ body {
     font-weight: 700;
 }
 
+.navigation-logo {
+    display: block;
+    position: absolute;
+}
+
 .navigation {
     display: flex;
-    width: 900px;
+    height: 64px;
+    align-items: center;
     margin: 0 auto;
-  }
+}
 
 .header-current {
+    padding-bottom: 20px;
     border-bottom: 2px solid #756257;
 }
 
 .navigation-list {
-    list-style: none;
+    display: flex;
     margin: 0;
     padding: 0;
     width: 465px;
-    display: flex;
+    list-style: none;
+    margin-left: 240px;
 }
 
 .navigation-list-user {
@@ -81,6 +89,8 @@ body {
     padding: 0;
     width: 310px;
     display: flex;
+    max-width: 300px;
+    margin-left: auto;
 }
 
 .navigation-link {
@@ -96,19 +106,19 @@ body {
     text-transform: uppercase;
 }
 
-/*
+
 .search-icon {
     background-image: url("../images/search.svg");
     background-repeat: no-repeat;
-    width: 44px;
-    height: 64px;
+    width: 20px;
+    height: 20px;
 }
 
 .heart-icon {
     background-image: url("../images/heart-icon.svg");
     background-repeat: no-repeat;
-    width: 44px;
-    height: 64px;
+    width: 18px;
+    height: 17px;
 }
 
 .favourites-value {
@@ -122,8 +132,11 @@ body {
     text-align: center;
     border-radius: 10px;
     padding: 2px 3px;
+    position: relative;
+    bottom: 30px;
+    left: 5px;
 }
-*/
+
 
 .button-user {
     background-color: #756157;
