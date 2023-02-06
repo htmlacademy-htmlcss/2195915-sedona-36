@@ -55,6 +55,7 @@ body {
 .page-header {
     font-size: 20px;
     font-weight: 700;
+    padding: 0 70px;
 }
 
 .navigation-logo {
@@ -66,7 +67,7 @@ body {
     display: flex;
     min-height: 64px;
     align-items: center;
-    margin: 0 auto;
+    justify-content: center;
 }
 
 .header-current {
@@ -76,20 +77,22 @@ body {
 
 .navigation-list {
     display: flex;
+    justify-content: flex-end;
+    gap: 32px;
     margin: 0;
     padding: 0;
-    width: 465px;
+    min-width: 491px;
     list-style: none;
-    margin-left: 240px;
 }
 
 .navigation-list-user {
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 310px;
     display: flex;
-    max-width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 260px;
     margin-left: auto;
 }
 
@@ -119,22 +122,26 @@ body {
     background-repeat: no-repeat;
     width: 18px;
     height: 17px;
+    margin: 0;
+    position: relative;
+    bottom: 10px;
 }
 
 .favourites-value {
-    width: 20px;
-    height: 20px;
+    position: relative;
+    left: 8px;
+    bottom: 3px;
+    min-width: 20px;
+    min-height: 20px;
     background-color: #7DB54F;
     color: #ffffff;
     font-weight: 400;
     font-size: 10px;
-    line-height: 15px;
+    line-height: 12px;
     text-align: center;
     border-radius: 10px;
-    padding: 2px 3px;
-    position: relative;
-    bottom: 30px;
-    left: 5px;
+    padding: 4px 3px;
+    z-index: 2;
 }
 
 
