@@ -188,6 +188,7 @@ body {
     height: 485px;
     text-align: center;
     margin: auto;
+    margin-bottom: 70px;
 }
 
 .hero-title {
@@ -216,6 +217,10 @@ body {
 }
 
 /* advantages */
+.advantages {
+    margin-bottom: 64px;
+}
+
 .advantages-list {
     display: flex;
     justify-content: space-between;
@@ -227,6 +232,8 @@ body {
 
 .advantages-images {
     display: block;
+    width: 100%;
+    height: auto;
 }
 
 .advantages-lead-title {
@@ -234,28 +241,25 @@ body {
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
+    width: 620px;
+    margin: 0 auto;
+    margin-bottom: 25px;
 }
 
 .advantages-lead-subtitle {
     font-weight: 400;
     font-size: 22px;
     line-height: 33px;
-}
-
-.advantages-title {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 70px;
+    color: #333333;
 }
 
 .index-box {
     width: 400px;
-    height: 384px;
-}
-
-.box-dark {
+    min-height: 384px;
     background-color: #82B3D3;
+    padding: 102px 85px 101px;
 }
 
 .box-half {
@@ -266,25 +270,26 @@ body {
     background: rgba(131, 179, 211, 0.12);
 }
 
+.advantages-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 62px;
+    color: #000000;
+}
+
 .advantages-description {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     color: #333333;
+    margin: 0 auto;
 }
 
-.advantages-title-white {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    text-transform: uppercase;
+.white {
     color: #ffffff;
-    background-color: #82B3D3;
-}
-
-.advantages-description-white {
-    color: #ffffff;
-    background-color: #82B3D3;
 }
 
 /* services */
@@ -293,6 +298,9 @@ body {
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 505px;
 }
 
 .services-lead-subtitle {
@@ -300,30 +308,43 @@ body {
     font-size: 22px;
     line-height: 26px;
     color: #333333;
+    margin: 0 auto;
+    margin-bottom: 64px;
 }
 
 .services-list {
     list-style: none;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    margin-bottom: 96px;
 }
 
+.services-item {
+    padding: 81px 85px;
+}
+
+.white-box {
+    background-color: #ffffff;
+}
 
 .icon-home {
     background-image: url("../images/service/service-icon-1.svg");
     background-repeat: no-repeat;
     width: 76px;
     height: 72px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .icon-eat {
     background-image: url("../images/service/service-icon-2.svg");
     background-repeat: no-repeat;
     width: 75px;
-    height: 70px;
+    height: 71px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .icon-souvenir {
@@ -331,6 +352,8 @@ body {
     background-repeat: no-repeat;
     width: 70px;
     height: 76px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .services-title {
@@ -338,6 +361,8 @@ body {
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .services-description {
@@ -345,6 +370,7 @@ body {
     font-size: 18px;
     line-height: 21px;
     color: #333333;
+    margin: 0 auto;
 }
 
 /* go to popup */
@@ -353,6 +379,8 @@ body {
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .index-popup-subtitle {
@@ -360,6 +388,9 @@ body {
     font-size: 22px;
     line-height: 26px;
     color: #333333;
+    margin: 0 auto;
+    margin-bottom: 54px;
+    width: 592px;
 }
 
 .button-popup {
@@ -375,6 +406,7 @@ body {
     text-transform: uppercase;
     border-radius: 4px;
     border: none;
+    padding: 8px 50px;
 }
 
 .popup-link {
@@ -390,7 +422,8 @@ body {
     width: 1200px;
     height: 415px;
     color: #ffffff;
-    margin: auto;
+    margin: 0 auto;
+    margin-top: 96px;
     padding: 75px 258px;
 }
 
