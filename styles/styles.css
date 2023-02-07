@@ -74,7 +74,7 @@ body {
     min-height: 64px;
     align-items: center;
     margin-left: auto;
-    width: 875px;
+    width: 890px;
 }
 
 .header-current {
@@ -86,15 +86,14 @@ body {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    gap: 32px;
     margin: 0;
     padding: 0;
     min-width: 491px;
-    list-style: none;
+    list-style-type: none;
 }
 
 .navigation-list-user {
-    list-style: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
@@ -108,6 +107,14 @@ body {
     line-height: 24px;
     text-decoration: none;
     color: #000000;
+    display: block;
+    height: 64px;
+    padding: 20px 16px;
+    margin-right: 8px;
+}
+
+.navigation-link:last-child {
+    margin-right: 0;
 }
 
 .navigation-link-user {
@@ -115,8 +122,11 @@ body {
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
+    display: block;
+    min-width: 44px;
+    height: 64px;
+    padding: 22px 12px;
 }
-
 
 .search-icon {
     background-image: url("../images/search.svg");
@@ -132,13 +142,13 @@ body {
     height: 17px;
     margin: 0;
     position: relative;
-    bottom: 10px;
+    bottom: 18px;
 }
 
 .favourites-value {
     position: relative;
     left: 8px;
-    bottom: 3px;
+    bottom: 10px;
     min-width: 20px;
     min-height: 20px;
     background-color: #7DB54F;
@@ -165,6 +175,7 @@ body {
     font-size: 16px;
     line-height: 20px;
     padding: 8px 34px;
+    margin-left: 20px;
 }
 
 /* hero */
