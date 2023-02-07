@@ -46,9 +46,15 @@ body {
 
 .visually-hidden {
     position: absolute;
-    font-size: 0;
-    visibility: hidden;
-    color: transparent;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /* header */
@@ -68,7 +74,7 @@ body {
     min-height: 64px;
     align-items: center;
     margin-left: auto;
-    width: 877px;
+    width: 875px;
 }
 
 .header-current {
@@ -435,12 +441,12 @@ body {
     background-color: #82B3D3;
     background-image: url("../images/filter.jpg");
     background-size: 100% auto;
-    width: 1200px;
-    height: 415px;
+    width: 100%;
+    height: auto;
     background-repeat: no-repeat;
     color: #ffffff;
     margin: 0;
-    padding: 0;
+    padding: 35px 70px 65px;
     display: flex;
 }
 
