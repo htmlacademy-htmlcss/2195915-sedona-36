@@ -534,7 +534,7 @@ body {
     background-repeat: no-repeat;
     color: #ffffff;
     margin: 0;
-    padding: 35px 70px 65px;
+    padding: 35px 70px 50px;
     display: flex;
 }
 
@@ -549,11 +549,17 @@ body {
     font-size: 60px;
     line-height: 78px;
     margin: 0;
+    margin-bottom: 8px;
 }
 
 /* breadcrumbs */
 .breadcrumbs {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
 }
 
 .breadcrumbs-link {
@@ -564,12 +570,47 @@ body {
     line-height: 21px;
     padding: 0;
     margin: 0;
+    margin-right: 28px;
+}
+
+.breadcrumbs-icon {
+    display: block;
+    background-image: url(../images/breadcrumbs-home.svg);
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 12px;
 }
 
 .catalog-filter {
     display: flex;
     justify-content: space-between;
+    min-height: 160px;
     margin: 0 auto;
+}
+
+.infrastructure-wrapper {
+    margin-right: 70px;
+}
+
+.housing-wrapper {
+    width: 150px;
+    margin-right: 140px;
+}
+
+.price-wrapper {
+    margin-right: 70px;
+}
+
+.button-wrapper {
+    width: 192px;
+    height: 104px;
+    align-self: flex-end;
+}
+
+.infrastructure-input {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
 }
 
 .catalog-filter-title {
@@ -577,16 +618,23 @@ body {
     font-size: 20px;
     line-height: 24px;
     text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 32px;
 }
 
 .catalog-filter-list {
+    width: 150px;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.infrastructure-input {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
+.catalog-filter-item {
+    margin-bottom: 16px;
+}
+
+.catalog-filter-item:last-child {
+    margin-bottom: 0;
 }
 
 .button-apply {
@@ -602,6 +650,7 @@ body {
     padding: 8px 50px;
     border: none;
     border-radius: 4px;
+    margin-bottom: 32px;
 }
 
 .button-reset {
