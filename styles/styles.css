@@ -450,11 +450,12 @@ body {
     font-size: 22px;
     line-height: 26px;
     margin: 0 auto;
+    width: 475px;
 }
 
 .newsletter-form {
     margin: 0 auto;
-    min-width: 700px;
+    width: 684px;
     display: flex;
 }
 
@@ -472,7 +473,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    width: 410px;
+    width: 452px;
     margin: 0;
     padding: 0;
 }
@@ -870,6 +871,7 @@ body {
 .pagination-wrapper {
     display: flex;
     align-items: flex-start;
+    margin-bottom: 156px;
 }
 
 .pagination-item {
@@ -884,13 +886,19 @@ body {
     text-transform: uppercase;
     margin: 0;
     margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.pagination-position {
+    min-width: 12px;
+    height: 36px;
 }
 
 .pagination-link {
     color: #ffffff;
     text-decoration: none;
-    position: relative;
 }
 
 .pagination-current {
@@ -910,4 +918,12 @@ body {
 
 .pagination-position {
     position: relative;
+}
+
+.newsletter-catalog{
+    margin-bottom: 104px;
+}
+
+.field-catalog {
+    background-color: #F2F2F2;
 }
