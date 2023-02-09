@@ -23,20 +23,18 @@
               <a class="navigation-link" href="faq.html">О Седоне</a>
             </li>
             <li>
-              <a class="navigation-link header-current" href="catalog.html">Гостиницы</a>
+              <a class="navigation-link" href="catalog.html"><span class="header-current">Гостиницы</span></a>
             </li>
           </ul>
           <ul class="navigation-list-user">
             <li>
-              <a class="navigation-link-user" href="#">
+              <a class="navigation-link-user search-icon" href="#">
                 <span class="visually-hidden">Поиск</span>
-                <div class="search-icon"></div>
               </a>
             </li>
             <li>
-              <a class="navigation-link-user" href="#">
+              <a class="navigation-link-user heart-icon" href="#">
                 <span class="visually-hidden">Избранное</span>
-                <div class="heart-icon"></div>
                 <div class="favourites-value">12</div>
               </a>
             </li>
@@ -57,7 +55,7 @@
 
                 <ol class="breadcrumbs">
                   <li>
-                    <a class="breadcrumbs-link" href="index.html">
+                    <a class="breadcrumbs-link breadcrumbs-icon" href="index.html">
                       <span class="visually-hidden">Главная страница</span></a>
                   </li>
                   <li>
@@ -114,9 +112,13 @@
                   </div>
                   <div class="price-wrapper">
                     <h3 class="catalog-filter-title">Стоимость, ₽:</h3>
-                    <label class="price">
+                    <label class="min-price">
                       <input class="min-price" type="number" name="min-price">
+                    </label>
+                    <label class="max-price">
                       <input class="max-price" type="number" name="max-price">
+                    </label>
+                    <label class="min-range">
                       <input class="price-input" type="range" name="price-range" min="0" max="12000" step="1">
                     </label>
                   </div>
@@ -155,14 +157,24 @@
                     alt="Вид из гостиницы Amara Resort & Spa">
                   <h3 class="hotel-card-title">Amara Resort & Spa</h3>
                 </a>
-                <span class="hotel-card-type">Гостиница</span>
-                <span class="hotel-card-price">От 4000 ₽</span>
-                <a class="hotel-card-button" href="#">Подробнее</a>
-                <button class="hotel-card-button button-blue" type="button">В избранное</button>
-                <span class="visually-hidden stars-four">4 звезды</span>
-                <span class="rating">Рейтинг:
-                  <span class="rating-value">8,5</span>
-                </span>
+                <div class="card-flex">
+                  <span class="hotel-card-type">Гостиница</span>
+                  <span class="hotel-card-price">От 4000 ₽</span>
+                </div>
+                <div class="card-flex">
+                  <div class="hotel-card-button">
+                    <a class="button-link" href="#">Подробнее</a>
+                  </div>
+                  <button class="hotel-card-button button-blue" type="button">В избранное</button>
+                </div>
+                <div class="card-flex">
+                  <div class="stars-four">
+                    <span class="visually-hidden">4 звезды</span>
+                  </div>
+                  <span class="rating">Рейтинг:
+                    <span class="rating-value">8,5</span>
+                  </span>
+                </div>
               </div>
               <div class="hotel-card">
                 <a class="hotel-card-link" href="product.html">
@@ -170,14 +182,24 @@
                     alt="Вид из гостиницы Villas at Poco Diablo">
                   <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
                 </a>
-                <span class="hotel-card-type">Гостиница</span>
-                <span class="hotel-card-price">От 5000 ₽</span>
-                <a class="hotel-card-button" href="#">Подробнее</a>
-                <button class="hotel-card-button button-green" type="button">В избранном</button>
-                <span class="visually-hidden stars-four">4 звезды</span>
-                <span class="rating">Рейтинг:
-                  <span class="rating-value">9,2</span>
-                </span>
+                <div class="card-flex">
+                  <span class="hotel-card-type">Гостиница</span>
+                  <span class="hotel-card-price">От 5000 ₽</span>
+                </div>
+                <div class="card-flex">
+                  <div class="hotel-card-button">
+                    <a class="button-link" href="#">Подробнее</a>
+                  </div>
+                  <button class="hotel-card-button button-green" type="button">В избранном</button>
+                </div>
+                <div class="card-flex">
+                  <div class="stars-four">
+                    <span class="visually-hidden">4 звезды</span>
+                  </div>
+                  <span class="rating">Рейтинг:
+                    <span class="rating-value">9,2</span>
+                  </span>
+                </div>
               </div>
               <div class="hotel-card">
                 <a class="hotel-card-link" href="product.html">
@@ -185,14 +207,24 @@
                     alt="Вид из гостиницы Desert Quail Inn">
                   <h3 class="hotel-card-title">Desert Quail Inn</h3>
                 </a>
-                <span class="hotel-card-type">Гостиница</span>
-                <span class="hotel-card-price">От 2500 ₽</span>
-                <a class="hotel-card-button" href="#">Подробнее</a>
-                <button class="hotel-card-button button-blue" type="button">В избранное</button>
-                <span class="visually-hidden stars-three">3 звезды</span>
-                <span class="rating">Рейтинг:
-                  <span class="rating-value">6,9</span>
-                </span>
+                <div class="card-flex">
+                  <span class="hotel-card-type">Гостиница</span>
+                  <span class="hotel-card-price">От 2500 ₽</span>
+                </div>
+                <div class="card-flex">
+                  <div class="hotel-card-button">
+                    <a class="button-link" href="#">Подробнее</a>
+                  </div>
+                  <button class="hotel-card-button button-blue" type="button">В избранное</button>
+                </div>
+                <div class="card-flex">
+                  <div class="stars-three">
+                    <span class="visually-hidden">4 звезды</span>
+                  </div>
+                  <span class="rating">Рейтинг:
+                    <span class="rating-value">6,9</span>
+                  </span>
+                </div>
               </div>
               <div class="hotel-card">
                 <a class="hotel-card-link" href="product.html">
@@ -200,16 +232,27 @@
                     alt="Вид из гостиницы GreenTree Inn">
                   <h3 class="hotel-card-title">GreenTree Inn</h3>
                 </a>
-                <span class="hotel-card-type">Гостиница</span>
-                <span class="hotel-card-price">От 1500 ₽</span>
-                <a class="hotel-card-button" href="#">Подробнее</a>
-                <button class="hotel-card-button button-blue" type="button">В избранное</button>
-                <span class="visually-hidden stars-two">2 звезды</span>
-                <span class="rating">Рейтинг:
-                  <span class="rating-value">5</span>
-                </span>
+                <div class="card-flex">
+                  <span class="hotel-card-type">Гостиница</span>
+                  <span class="hotel-card-price">От 1500 ₽</span>
+                </div>
+                <div class="card-flex">
+                  <div class="hotel-card-button">
+                    <a class="button-link" href="#">Подробнее</a>
+                  </div>
+                  <button class="hotel-card-button button-blue" type="button">В избранное</button>
+                </div>
+                <div class="card-flex">
+                  <div class="stars-two">
+                    <span class="visually-hidden">4 звезды</span>
+                  </div>
+                  <span class="rating">Рейтинг:
+                    <span class="rating-value">5</span>
+                  </span>
+                </div>
               </div>
             </div>
+
             <section class="pagination">
               <div class="pagination-wrapper">
                 <h2 class="visually-hidden">Пагинация</h2>
@@ -218,20 +261,20 @@
                     <span class="pagination-position">1</span>
                   </li>
                   <li class="pagination-item">
-                    <a class="pagination-link pagination-position" href="#">2</a>
+                    <a class="pagination-link" href="#"><span class="pagination-position">2</span></a>
                   </li>
                   <li class="pagination-item">
-                    <a class="pagination-link pagination-position" href="#">3</a>
+                    <a class="pagination-link" href="#"><span class="pagination-position">3</span></a>
                   </li>
                   <li class="pagination-item">
-                    <a class="pagination-link pagination-position" href="#">4</a>
+                    <a class="pagination-link" href="#"><span class="pagination-position">4</span></a>
                   </li>
                 </ol>
                 <p class="pagination-item pagination-white">
                   <span class="pagination-position">...</span>
                 </p>
                 <p class="pagination-item">
-                  <a class="pagination-link pagination-position" href="#">10</a>
+                  <a class="pagination-link" href="#"><span class="pagination-position">10</span></a>
                 </p>
               </div>
             </section>
@@ -242,15 +285,17 @@
               <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
               <h3 class="newsletter-subtitle">Только полезная информация и
                 никакого спама, честное бойскаутское!</h3>
-              <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-                <label class="newsletter-label">
-                  <input class="field" type="email" placeholder="Ваш e-mail" name="newsletter-email" required>
-                </label>
-                <button class="button newsletter-button" type="submit">
-                  <span class="subscribe">Подписаться</span>
-                </button>
-              </form>
             </div>
+            <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+              <label class="newsletter-label">
+                <input class="field field-catalog" type="email" placeholder="Ваш e-mail" name="newsletter-email"
+                  required>
+              </label>
+              <button class="button newsletter-button" type="submit">
+                <span class="subscribe">Подписаться</span>
+              </button>
+            </form>
+
           </section>
         </div>
       </main>
@@ -260,22 +305,19 @@
           <section class="footer-social">
             <h2 class="visually-hidden">Давайте дружить!</h2>
             <ul class="footer-social-list">
-              <li class="footer-social-item">
-                <a class="button footer-social-link" href="#">
+              <li>
+                <a class="footer-social-link footer-icon-vk" href="#">
                   <span class="visually-hidden">ВКонтакте</span>
-                  <img src="images/social-vk.svg" width="47" height="40" alt="">
                 </a>
               </li>
-              <li class="footer-social-item">
-                <a class="button" href="#">
+              <li>
+                <a class="footer-social-link footer-icon-tg" href="#">
                   <span class="visually-hidden">Телеграм</span>
-                  <img src="images/social-telegram.svg" width="47" height="40" alt="">
                 </a>
               </li>
-              <li class="footer-social-item">
-                <a class="button" href="#">
+              <li>
+                <a class="footer-social-link footer-icon-yt" href="#">
                   <span class="visually-hidden">Ютуб</span>
-                  <img src="images/social-youtube.svg" width="47" height="40" alt="">
                 </a>
               </li>
             </ul>

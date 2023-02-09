@@ -17,7 +17,7 @@
         <nav class="navigation">
           <ul class="navigation-list">
             <li>
-              <a class="navigation-link header-current" href="index.html">Главная</a>
+              <a class="navigation-link" href="index.html"><span class="header-current">Главная</span></a>
             </li>
             <li>
               <a class="navigation-link" href="faq.html">О Седоне</a>
@@ -28,15 +28,13 @@
           </ul>
           <ul class="navigation-list-user">
             <li>
-              <a class="navigation-link-user" href="#">
+              <a class="navigation-link-user search-icon" href="#">
                 <span class="visually-hidden">Поиск</span>
-                <div class="search-icon"></div>
               </a>
             </li>
             <li>
-              <a class="navigation-link-user" href="#">
+              <a class="navigation-link-user heart-icon" href="#">
                 <span class="visually-hidden">Избранное</span>
-                <div class="heart-icon"></div>
                 <div class="favourites-value">12</div>
               </a>
             </li>
@@ -61,12 +59,12 @@
             <h3 class="advantages-lead-subtitle">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</h3>
             <h3 class="visually-hidden">Преимущества</h3>
             <ul class="advantages-list">
-              <li class="advantages-item index-box box-dark">
-                <h3 class="advantages-title-white">Настоящий городок</h3>
-                <p class="advantages-description-white">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+              <li class="advantages-item index-box">
+                <h3 class="advantages-title white">Настоящий городок</h3>
+                <p class="advantages-description white">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
               </li>
               <li>
-                <img class="advantages-images" src="images/advantages-1.jpg" width="800" height="384"
+                <img class="advantages-images" src="images/advantages-1.jpg" width="800" height="385"
                   alt="Седона - самый настоящий городок">
               </li>
               <li class="advantages-item index-box box-light">
@@ -82,12 +80,12 @@
                 <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
               </li>
               <li>
-                <img class="advantages-images" src="images/advantages-2.jpg" width="800" height="385"
+                <img class="advantages-images" src="images/advantages-2.jpg" width="800" height="384"
                   alt="Мост дьявола">
               </li>
-              <li class="advantages-item index-box box-dark">
-                <h3 class="advantages-title-white">Там есть мост дьявола</h3>
-                <p class="advantages-description-white">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+              <li class="advantages-item index-box">
+                <h3 class="advantages-title white">Там есть мост дьявола</h3>
+                <p class="advantages-description white">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
               </li>
             </ul>
           </section>
@@ -98,19 +96,22 @@
             <h3 class="services-title visually-hidden">Популярные услуги</h3>
             <ul class="services-list">
               <li class="services-item index-box box-light">
+                <div class="icon-home"></div>
                 <h3 class="services-title">Жильё</h3>
                 <p class="services-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-                <div class="icon-home"></div>
+
               </li>
-              <li class="services-item index-box">
+              <li class="services-item index-box white-box">
+                <div class="icon-eat"></div>
                 <h3 class="services-title">Еда</h3>
                 <p class="services-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
-                <div class="icon-eat"></div>
+
               </li>
               <li class="services-item index-box box-light">
+                <div class="icon-souvenir"></div>
                 <h3 class="services-title">Сувениры</h3>
                 <p class="services-description">Не только китайского, но и настоящего местного производства!</p>
-                <div class="icon-souvenir"></div>
+
               </li>
             </ul>
           </section>
@@ -124,15 +125,16 @@
             <div class="newsletter-container">
               <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
               <h3 class="newsletter-subtitle">Только полезная информация и никакого спама, честное бойскаутское!</h3>
-              <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-                <label class="newsletter-label">
-                  <input class="field" type="email" placeholder="Ваш e-mail" name="newsletter-email" required>
-                </label>
-                <button class="button newsletter-button" type="submit">
-                  <span class="subscribe">Подписаться</span>
-                </button>
-              </form>
             </div>
+            <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+              <label class="newsletter-label">
+                <input class="field" type="email" placeholder="Ваш e-mail" name="newsletter-email" required>
+              </label>
+              <button class="newsletter-button" type="submit">
+                <span class="subscribe">Подписаться</span>
+              </button>
+            </form>
+
           </section>
         </div>
       </main>
@@ -142,22 +144,19 @@
           <section class="footer-social">
             <h2 class="visually-hidden">Давайте дружить!</h2>
             <ul class="footer-social-list">
-              <li class="footer-social-item">
-                <a class="button footer-social-link" href="#">
+              <li>
+                <a class="footer-social-link footer-icon-vk" href="#">
                   <span class="visually-hidden">ВКонтакте</span>
-                  <img src="images/social-vk.svg" width="47" height="40" alt="">
                 </a>
               </li>
-              <li class="footer-social-item">
-                <a class="button" href="#">
+              <li>
+                <a class="footer-social-link footer-icon-tg" href="#">
                   <span class="visually-hidden">Телеграм</span>
-                  <img src="images/social-telegram.svg" width="47" height="40" alt="">
                 </a>
               </li>
-              <li class="footer-social-item">
-                <a class="button" href="#">
+              <li>
+                <a class="footer-social-link footer-icon-yt" href="#">
                   <span class="visually-hidden">Ютуб</span>
-                  <img src="images/social-youtube.svg" width="47" height="40" alt="">
                 </a>
               </li>
             </ul>
