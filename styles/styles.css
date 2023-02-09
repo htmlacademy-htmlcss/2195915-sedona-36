@@ -746,6 +746,9 @@ body {
     flex-wrap: wrap;
     width: 1060px;
     margin: 0 auto;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #E6E6E6;
 }
 
 
@@ -763,6 +766,10 @@ body {
 
 .hotel-card:nth-child(3) {
     margin-right: 0;
+}
+
+.hotel-card:last-child {
+    margin-bottom: 0;
 }
 
 .hotel-card-link {
