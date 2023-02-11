@@ -778,15 +778,18 @@ body {
 }
 
 /* hotel cards */
+
 .cards-wrapper {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     width: 1060px;
+    grid-template-columns: repeat(3, 340px);
+    gap: 20px;
+    padding-bottom: 40px;
     margin: 0 auto;
     margin-bottom: 40px;
-    padding-bottom: 40px;
     border-bottom: 1px solid #E6E6E6;
 }
+
 
 .hotel-card {
     align-items: flex-start;
@@ -795,16 +798,6 @@ body {
     min-height: 435px;
     border: 1px solid #E6E6E6;
     border-radius: 4px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-.hotel-card:nth-child(3) {
-    margin-right: 0;
-}
-
-.hotel-card:last-child {
-    margin-bottom: 0;
 }
 
 .hotel-card-link {
