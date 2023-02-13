@@ -77,11 +77,6 @@ body {
     width: 890px;
 }
 
-.header-current {
-    padding-bottom: 18px;
-    border-bottom: 2px solid #756257;
-}
-
 .navigation-list {
     display: flex;
     justify-content: flex-start;
@@ -90,6 +85,20 @@ body {
     padding: 0;
     min-width: 491px;
     list-style-type: none;
+}
+
+.header-current {
+    position: relative;
+}
+
+.header-current::before {
+    content: "";
+    position: absolute;
+    background-color: #756157;
+    height: 2px;
+    right: 16px;
+    bottom: 0;
+    left: 16px;
 }
 
 .navigation-list-user {
