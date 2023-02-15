@@ -720,6 +720,7 @@ h3.white::before {
 
 .price-wrapper {
     margin-right: 70px;
+    width: 287px;
 }
 
 .button-wrapper {
@@ -732,6 +733,12 @@ h3.white::before {
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
+}
+
+.catalog-filter-group {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 .catalog-filter-title {
@@ -756,6 +763,96 @@ h3.white::before {
 
 .catalog-filter-item:last-child {
     margin-bottom: 0;
+}
+
+.range-wrapper-inputs {
+    display: flex;
+}
+
+.catalog-filter-label {
+    display: flex;
+    margin: 0;
+    margin-right: 2px;
+    width: 143px;
+}
+
+.range-input {
+    padding: 12px 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    background-color: #F2F2F2;
+    border: none;
+    appearance: textfield;
+    width: 143px;
+    height: 48px;
+    margin-bottom: 45px;
+}
+
+.range-input-left {
+    border-radius: 4px 0 0 4px;
+}
+
+.range-input-right {
+    border-radius: 0 4px 4px 0;
+}
+
+.price-name {
+    position: relative;
+    top: 12px;
+    right: 35px;
+    color: #BDBDBD;
+}
+
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+.range {
+    padding: 0 3px 0 10px;
+}
+
+.range-scale {
+    position: relative;
+    height: 4px;
+    background-color: #5E5E5E;
+}
+
+.range-bar {
+    position: absolute;
+    height: 4px;
+    background-color: #ffffff;
+    width: 226px;
+}
+
+.range-toggle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.range-toggle:focus {
+    outline: 3px solid #83B3D3;
+}
+
+.range-toggle:active {
+    outline: 2px solid #83B3D3;
+}
+
+.toggle-min {
+    top: -8px;
+    left: -10px;
+}
+
+.toggle-max {
+    top: -8px;
+    right: -10px;
 }
 
 .button-filter {
