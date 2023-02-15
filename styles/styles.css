@@ -188,10 +188,7 @@ body {
     cursor: pointer;
 }
 
-.button-user:hover {
-    background-color: #615048;
-}
-
+.button-user:hover,
 .button-user:focus {
     background-color: #615048;
 }
@@ -463,10 +460,7 @@ h3.white::before {
     cursor: pointer;
 }
 
-.button-popup:hover {
-    background-color: #615048;
-}
-
+.button-popup:hover,
 .button-popup:focus {
     background-color: #615048;
 }
@@ -560,10 +554,7 @@ h3.white::before {
     cursor: pointer;
 }
 
-.newsletter-button:hover {
-    background-color: #68A2CA;
-}
-
+.newsletter-button:hover,
 .newsletter-button:focus {
     background-color: #68A2CA;
 }
@@ -575,74 +566,6 @@ h3.white::before {
 .newsletter-button:disabled {
     background-color: #E5E5E5;
 }
-
-/* page-footer */
-
-.page-footer-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    min-height: 120px;
-    align-items: center;
-    padding: 40px 70px 30px;
-}
-
-.footer-social-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    min-width: 260px;
-    margin-left: auto;
-}
-
-
-.footer-social-link {
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: block;
-    min-width: 48px;
-    height: 44px;
-    padding: 22px 12px;
-    position: relative;
-}
-
-.footer-icon-vk {
-    background-image: url(../images/social-vk.svg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    width: 24px;
-    height: 14px;
-}
-
-.footer-icon-tg {
-    background-image: url(../images/social-telegram.svg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    width: 18px;
-    height: 16px;
-}
-
-.footer-icon-yt {
-    background-image: url(../images/social-youtube.svg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    width: 22px;
-    height: 18px;
-}
-
-.footer-phone {
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 48px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #000000;
-}
-
 
 /* catalog filter */
 
@@ -725,6 +648,74 @@ h3.white::before {
     margin-right: 70px;
 }
 
+.control {
+    position: relative;
+    display: block;
+    padding-left: 36px;
+}
+
+.control-mark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.control-input {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.control:hover {
+    opacity: 0.7;
+}
+
+.control:focus + .control-mark {
+    border: 3px solid #83B3D3;
+}
+
+.control:active {
+    opacity: 0.5;
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::before {
+    position: absolute;
+    top: 12px;
+    left: 3px;
+    width: 7px;
+    height: 2px;
+    background-color: #3F5E72;
+    rotate: 45deg;
+    content: "";
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::after {
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    width: 12px;
+    height: 2px;
+    background-color: #3F5E72;
+    rotate: -50deg;
+    content: "";
+}
+
+.control-input[type="radio"] + .control-mark {
+    border-radius: 50%;
+  }
+
+  .control-input[type="radio"]:checked + .control-mark {
+    border-radius: 50%;
+    background-color: #3F5E72;
+    width: 20px;
+    height: 20px;
+    box-shadow: inset 0 0 0 5px #ffffff;
+  }
+
 .housing-wrapper {
     width: 150px;
     margin-right: 140px;
@@ -739,12 +730,6 @@ h3.white::before {
     width: 192px;
     min-height: 104px;
     align-self: flex-end;
-}
-
-.infrastructure-input {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
 }
 
 .catalog-filter-group {
@@ -799,6 +784,10 @@ h3.white::before {
     width: 143px;
     height: 48px;
     margin-bottom: 45px;
+}
+
+.range-input:hover {
+    background-color: #E6E6E6;
 }
 
 .range-input-left {
@@ -887,10 +876,7 @@ h3.white::before {
     margin-bottom: 32px;
 }
 
-.button-apply:hover {
-    background-color: #68A2CA;
-}
-
+.button-apply:hover,
 .button-apply:focus {
     background-color: #68A2CA;
 }
@@ -1102,10 +1088,7 @@ h3.white::before {
     cursor: pointer;
 }
 
-.hotel-card-button:hover {
-    background-color: #615048;
-}
-
+.hotel-card-button:hover,
 .hotel-card-button:focus {
     background-color: #615048;
 }
@@ -1123,10 +1106,7 @@ h3.white::before {
     padding: 0;
 }
 
-.button-blue:hover {
-    background-color: #68A2CA;
-}
-
+.button-blue:hover,
 .button-blue:focus {
     background-color: #68A2CA;
 }
@@ -1140,10 +1120,7 @@ h3.white::before {
     padding: 0;
 }
 
-.button-green:hover {
-    background-color: #6C9E42;
-}
-
+.button-green:hover,
 .button-green:focus {
     background-color: #6C9E42;
 }
@@ -1225,10 +1202,7 @@ h3.white::before {
     align-items: center;
 }
 
-.pagination-item:hover:not(:first-child):not(.pagination-white) {
-    background-color: #68A2CA;
-}
-
+.pagination-item:hover:not(:first-child):not(.pagination-white),
 .pagination-item:focus {
     background-color: #68A2CA;
 }
@@ -1269,10 +1243,74 @@ h3.white::before {
     background-color: #F2F2F2;
 }
 
-.htmlacademy-icon:hover {
-    fill: #756157;
+/* page-footer */
+
+.page-footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    min-height: 120px;
+    align-items: center;
+    padding: 40px 70px 30px;
 }
 
+.footer-social-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    min-width: 260px;
+    margin-left: auto;
+}
+
+
+.footer-social-link {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    min-width: 48px;
+    height: 44px;
+    padding: 22px 12px;
+    position: relative;
+}
+
+.footer-icon-vk {
+    background-image: url(../images/social-vk.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 24px;
+    height: 14px;
+}
+
+.footer-icon-tg {
+    background-image: url(../images/social-telegram.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 18px;
+    height: 16px;
+}
+
+.footer-icon-yt {
+    background-image: url(../images/social-youtube.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 22px;
+    height: 18px;
+}
+
+.footer-phone {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+.htmlacademy-icon:hover,
 .htmlacademy-icon:focus {
     fill: #756157;
 }
