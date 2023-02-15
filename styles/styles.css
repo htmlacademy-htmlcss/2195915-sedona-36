@@ -700,6 +700,18 @@ h3.white::before {
     background-repeat: no-repeat;
     width: 13px;
     height: 12px;
+    position: relative;
+}
+
+.breadcrumbs-icon::after {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 20px;
+    background-image: url(../images/breadcrumbs-arrow.svg);
+    background-repeat: no-repeat;
+    top: -4px;
+    left: 24px;
 }
 
 .catalog-filter {
