@@ -183,6 +183,52 @@
         </div>
       </footer>
     </div>
+
+    <div class="modal-container modal-container-close">
+      <div class="modal modal-auth">
+        <button class="modal-close-button">
+          <span class="visually-hidden">Закрыть.</span>
+        </button>
+        <section class="modal-content">
+          <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+          <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
+            <p class="field-group">
+              <label class="form-label">Дата заезда:
+                <input class="form-date-to" type="date" name="date-to">
+              </label>
+            <p class="text-date past-date">Мы не можем отправить вас в прошлое.</p>
+            </p>
+            <p class="field-group">
+              <label class="form-label">Дата выезда:
+                <input class="form-date-out" type="date" name="date-out">
+              </label>
+            <p class="text-date">На эти даты есть свободные номера. Пока есть.</p>
+            </p>
+            <p class="persons-wrapper">
+              <span class="form-label">Взрослые:</span>
+            <div class="persons-number">
+              <button class="button-minus visually-hidden" type="button">Убавить количество взрослых.</button>
+              2
+              <button class="button-plus visually-hidden" type="button">Прибавить количество взрослых.</button>
+            </div>
+
+            <span class="form-label">Дети:</span>
+            <div class="information-icon visually-hidden">иформация о количестве детей.</div>
+            <div class="children-information-wrapper">
+              <p class="children-information"></p>
+            </div>
+            <div class="persons-number">
+              <button class="button-minus visually-hidden" type="button">Убавить количество детей.</button>
+              2
+              <button class="button-plus visually-hidden" type="button">Прибавить количество детей.</button>
+            </div>
+            </p>
+            <button class="button-modal" type="button">найти</button>
+          </form>
+        </section>
+      </div>
+    </div>
+
   </body>
 
 </html>
