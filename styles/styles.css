@@ -1438,7 +1438,7 @@ h3.white::before {
 .text-date {
     padding: 0;
     margin: 0;
-    margin-left: 138px;
+    margin-left: 157px;
     margin-bottom: 24px;
     display: flex;
     font-weight: 400;
@@ -1457,6 +1457,15 @@ h3.white::before {
     align-items: center;
     padding: 0;
     margin: 0;
+    margin-bottom: 48px;
+}
+
+.persons-wrapper .form-label {
+    margin-right: 46px;
+}
+
+.persons-wrapper .form-label:last-of-type {
+    margin-right: auto;
 }
 
 .persons-number {
@@ -1471,6 +1480,49 @@ h3.white::before {
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
+    position: relative;
+}
+
+.persons-number:first-of-type {
+    margin-right: auto;
+}
+
+.button-minus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 40px;
+    height: 48px;
+    cursor: pointer;
+    background-color: #F2F2F2;
+    padding: 0;
+    margin: 0;
+    margin-right: auto;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    background-image: url("../images/popup/minus.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button-plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 40px;
+    height: 48px;
+    cursor: pointer;
+    background-color: #F2F2F2;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    margin-left: auto;
+    background-image: url("../images/popup/plus.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /*
