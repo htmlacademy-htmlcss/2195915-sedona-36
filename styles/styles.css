@@ -1433,9 +1433,20 @@ h3.white::before {
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
+    position: relative;
 }
 
-.form-date::after {
+.calendar-icon {
+    fill: rgba(117, 97, 87, 0.3);
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 180px;
+    right: 92px;
+}
+
+.calendar-icon-out {
+    top: 278px;
 }
 
 .text-date {
