@@ -1616,6 +1616,14 @@ h3.white::before {
     cursor: pointer;
 }
 
+.button-modal:hover,
+.button-modal:focus {
+    background-color: #68A2CA;
+}
+
+.button-modal:active {
+    color: rgba(255, 255, 255, 0.3);
+}
 
 
 /*
