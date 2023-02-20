@@ -1392,6 +1392,20 @@ h3.white::before {
     cursor: pointer;
 }
 
+.modal-close-button:hover {
+    background-color: #E6E6E6;
+}
+
+.modal-close-button:focus {
+    background-color: #E6E6E6;
+    border: 3px solid #83B3D3;
+}
+
+.modal-close-button:active {
+    background-color: #b8b8b8;
+    opacity: 0.4;
+}
+
 .modal-title {
     margin: 0;
     margin-bottom: 64px;
