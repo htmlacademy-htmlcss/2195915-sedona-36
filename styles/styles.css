@@ -1163,6 +1163,10 @@ h3.white::before {
     color: rgba(255, 255, 255, 0.3);
 }
 
+.button-none {
+    display: none;
+}
+
 .stars-four {
     background-image: url("../images/stars-4.svg");
     background-repeat: no-repeat;
@@ -1220,8 +1224,8 @@ h3.white::before {
 }
 
 .pagination-item {
-    width: 60px;
-    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
     background-color: #82B3D3;
     border-radius: 4px;
     color: #ffffff;
@@ -1344,9 +1348,20 @@ h3.white::before {
     color: #000000;
 }
 
+.footer-phone:hover,
+.footer-phone:focus {
+    color: #756157;
+    outline: none;
+}
+
+.footer-phone:active {
+    color: rgba(117, 97, 87, 0.3);
+}
+
 .htmlacademy-icon:hover,
 .htmlacademy-icon:focus {
     fill: #756157;
+    outline: none;
 }
 
 .htmlacademy-icon:active {
