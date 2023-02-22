@@ -1491,12 +1491,21 @@ h3.white::before {
     width: 440px;
     min-height: 48px;
     background-color: #F2F2F2;
-    border: none;
+    border: 3px solid transparent;
     border-radius: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
     position: relative;
+}
+
+.form-date:hover {
+    background-color: #E6E6E6;
+}
+
+.form-date:focus {
+    border: 3px solid #83B3D3;
+    outline: none;
 }
 
 .calendar-icon {
