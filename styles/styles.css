@@ -1333,7 +1333,7 @@ h3.white::before {
     padding: 0;
     display: flex;
     align-items: center;
-    min-width: 260px;
+    min-width: 142px;
     margin-left: auto;
 }
 
@@ -1401,6 +1401,8 @@ h3.white::before {
 .htmlacademy-icon:active {
     fill: rgba(117, 97, 87, 0.3);
 }
+
+/*модальное окно*/
 
 .modal-container {
     position: fixed;
@@ -1697,7 +1699,7 @@ h3.white::before {
     color: rgba(255, 255, 255, 0.3);
 }
 
-/*
+
 .modal-container-close {
     display: none;
 }
