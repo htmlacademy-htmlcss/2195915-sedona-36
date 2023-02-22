@@ -1311,32 +1311,28 @@ h3.white::before {
     display: block;
     min-width: 48px;
     height: 44px;
-    padding: 22px 12px;
+    padding: 0;
     position: relative;
 }
 
-.footer-icon-vk {
-    background-image: url(../images/social-vk.svg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    width: 24px;
-    height: 14px;
+.social-icon {
+    width: 48px;
+    height: 41px;
+    fill: #83B3D3;
 }
 
-.footer-icon-tg {
-    background-image: url(../images/social-telegram.svg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    width: 18px;
-    height: 16px;
+.social-icon:hover {
+    fill: #68A2CA;
 }
 
-.footer-icon-yt {
-    background-image: url(../images/social-youtube.svg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    width: 22px;
-    height: 18px;
+.footer-social-link:focus .social-icon,
+.footer-social-link:focus {
+    fill: #68A2CA;
+    outline: none;
+}
+
+.social-icon:active {
+    fill: rgba(104, 162, 202, 0.3);
 }
 
 .footer-phone {
@@ -1358,8 +1354,11 @@ h3.white::before {
     color: rgba(117, 97, 87, 0.3);
 }
 
-.htmlacademy-icon:hover,
-.htmlacademy-icon:focus {
+.htmlacademy-icon:hover {
+    fill: #756157;
+}
+
+.htmlacademy-link:focus {
     fill: #756157;
     outline: none;
 }
@@ -1614,7 +1613,7 @@ h3.white::before {
 
 .tooltip:hover .tooltip-text,
 .tooltip:focus .tooltip-text {
-  display: block;
+    display: block;
 }
 
 .button-modal {
