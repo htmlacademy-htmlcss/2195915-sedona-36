@@ -720,7 +720,7 @@ h3.white::before {
     width: 7px;
     height: 2px;
     background-color: #3F5E72;
-    rotate: 45deg;
+    transform: rotate(45deg);
     content: "";
 }
 
@@ -731,7 +731,7 @@ h3.white::before {
     width: 12px;
     height: 2px;
     background-color: #3F5E72;
-    rotate: -50deg;
+    transform: rotate(-50deg);
     content: "";
 }
 
@@ -1697,7 +1697,7 @@ h3.white::before {
     width: 20px;
     height: 20px;
     background-color: #333333;
-    rotate: 45deg;
+    transform: rotate(45deg);
 }
 
 .tooltip:hover .tooltip-text,
