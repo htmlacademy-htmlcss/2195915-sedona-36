@@ -132,8 +132,6 @@ body {
 }
 
 .navigation-link-user {
-    font-size: 20px;
-    font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
     display: block;
@@ -160,6 +158,11 @@ body {
 }
 
 .favourites-value {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
     position: absolute;
     left: 21px;
     top: 11px;
@@ -167,9 +170,6 @@ body {
     min-height: 20px;
     background-color: #7DB54F;
     color: #ffffff;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
     text-align: center;
     border-radius: 10px;
     padding: 4px 3px;
@@ -177,6 +177,11 @@ body {
 
 
 .button-user {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
     background-color: #756157;
     color: #ffffff;
     width: 160px;
@@ -184,11 +189,6 @@ body {
     background: #756157;
     border-radius: 4px;
     text-transform: uppercase;
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
     padding: 8px 34px;
     margin-left: 20px;
     cursor: pointer;
@@ -215,7 +215,7 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
     width: 1200px;
-    height: 485px;
+    min-height: 485px;
     text-align: center;
     margin: auto;
     margin-bottom: 70px;
@@ -230,26 +230,23 @@ body {
     position: absolute;
     content: url("../images/welcome-ladder.svg");
     width: 1200px;
-    height: 57px;
+    min-height: 57px;
     background-size: 1200px 57px;
     z-index: 10;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 0;
+    bottom: -7px;
 }
 
 /* main-index */
 
 .main-container {
     flex-grow: 1;
+    margin: 0 auto;
 }
 
 .main-index {
     text-align: center;
-}
-
-.page-container {
-    margin: 0 auto;
 }
 
 /* advantages */
@@ -273,21 +270,25 @@ body {
 }
 
 .advantages-lead-title {
+    font-family: 'PT Sans';
+    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
     width: 620px;
     margin: 0 auto;
-    margin-bottom: 21px;
+    margin-bottom: 23px;
 }
 
 .advantages-lead-subtitle {
+    font-family: 'PT Sans';
+    font-style: normal;
     font-weight: 400;
     font-size: 22px;
-    line-height: 33px;
+    line-height: 26px;
     margin: 0;
-    margin-bottom: 85px;
+    margin-bottom: 90px;
     color: #333333;
 }
 
@@ -365,6 +366,8 @@ h3.white::before {
 
 /* services */
 .services-lead-title {
+    font-family: 'PT Sans';
+    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
@@ -375,6 +378,8 @@ h3.white::before {
 }
 
 .services-lead-subtitle {
+    font-family: 'PT Sans';
+    font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
@@ -404,7 +409,7 @@ h3.white::before {
     background-image: url("../images/service/service-icon-1.svg");
     background-repeat: no-repeat;
     width: 76px;
-    height: 72px;
+    min-height: 72px;
     margin: 0 auto;
     margin-bottom: 30px;
 }
@@ -413,7 +418,7 @@ h3.white::before {
     background-image: url("../images/service/service-icon-2.svg");
     background-repeat: no-repeat;
     width: 75px;
-    height: 71px;
+    min-height: 71px;
     margin: 0 auto;
     margin-bottom: 30px;
 }
@@ -422,7 +427,7 @@ h3.white::before {
     background-image: url("../images/service/service-icon-3.svg");
     background-repeat: no-repeat;
     width: 70px;
-    height: 76px;
+    min-height: 76px;
     margin: 0 auto;
     margin-bottom: 30px;
 }
@@ -447,6 +452,8 @@ h3.white::before {
 
 /* go to popup */
 .index-popup-title {
+    font-family: 'PT Sans';
+    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
@@ -456,6 +463,8 @@ h3.white::before {
 }
 
 .index-popup-subtitle {
+    font-family: 'PT Sans';
+    font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
@@ -508,8 +517,8 @@ h3.white::before {
     background-image: url("../images/subscribe.jpg");
     background-repeat: no-repeat;
     background-color: #82B3D3;
-    background-size: 100% auto;
-    width: 1200px;
+    background-size: 100% 415px;
+    width: 100%;
     height: 415px;
     color: #ffffff;
     margin: 0 auto;
@@ -523,6 +532,8 @@ h3.white::before {
 }
 
 .newsletter-title {
+    font-family: 'PT Sans';
+    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
@@ -532,11 +543,12 @@ h3.white::before {
 }
 
 .newsletter-subtitle {
+    font-family: 'PT Sans';
+    font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
     margin: 0 auto;
-    margin-bottom: 5px;
     width: 475px;
 }
 
@@ -559,6 +571,7 @@ h3.white::before {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
     min-width: 452px;
     min-height: 40px;
     margin: 0;
@@ -632,6 +645,8 @@ h3.white::before {
 }
 
 .catalog-title {
+    font-family: 'PT Sans';
+    font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 78px;
@@ -650,11 +665,13 @@ h3.white::before {
 }
 
 .breadcrumbs-link {
-    color: #ffffff;
-    text-decoration: none;
+    font-family: 'PT Sans';
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
+    color: #ffffff;
+    text-decoration: none;
     padding: 0;
     margin: 0;
     margin-right: 28px;
@@ -677,7 +694,7 @@ h3.white::before {
     background-image: url("../images/breadcrumbs-home.svg");
     background-repeat: no-repeat;
     width: 13px;
-    height: 12px;
+    min-height: 12px;
     position: relative;
 }
 
@@ -685,7 +702,7 @@ h3.white::before {
     position: absolute;
     content: "";
     width: 8px;
-    height: 20px;
+    min-height: 20px;
     background-image: url("../images/breadcrumbs-arrow.svg");
     background-repeat: no-repeat;
     top: -4px;
@@ -1000,6 +1017,8 @@ h3.white::before {
 }
 
 .result-hotels {
+    font-family: 'PT Sans';
+    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
@@ -1145,10 +1164,12 @@ h3.white::before {
 }
 
 .hotel-card-title {
-    color: #000000;
+    font-family: 'PT Sans';
+    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
+    color: #000000;
     margin: 0;
     margin-bottom: 16px;
 }
@@ -1164,14 +1185,10 @@ h3.white::before {
     margin-bottom: 0;
 }
 
-.hotel-card-type {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: #333333;
-}
-
+.hotel-card-type,
 .hotel-card-price {
+    font-family: 'PT Sans';
+    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -1179,11 +1196,13 @@ h3.white::before {
 }
 
 .button-link {
-    display: block;
-    color: #ffffff;
+    font-family: 'PT Sans';
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
+    display: block;
+    color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -1262,7 +1281,7 @@ h3.white::before {
     background-image: url("../images/stars-4.svg");
     background-repeat: no-repeat;
     width: 140px;
-    height: 37px;
+    min-height: 37px;
     background-position: center;
 }
 
@@ -1270,7 +1289,7 @@ h3.white::before {
     background-image: url("../images/stars-3.svg");
     background-repeat: no-repeat;
     width: 140px;
-    height: 37px;
+    min-height: 37px;
     background-position: center;
 }
 
@@ -1278,18 +1297,20 @@ h3.white::before {
     background-image: url("../images/stars-2.svg");
     background-repeat: no-repeat;
     width: 140px;
-    height: 37px;
+    min-height: 37px;
     background-position: center;
 }
 
 .rating {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
     width: 140px;
     height: 36px;
     background-color: #F2F2F2;
     color: #333333;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
     text-align: center;
     text-transform: uppercase;
     border-radius: 4px;
@@ -1315,14 +1336,16 @@ h3.white::before {
 }
 
 .pagination-item {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
     min-width: 60px;
     min-height: 60px;
     background-color: #82B3D3;
     border-radius: 4px;
     color: #ffffff;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 36px;
     text-transform: uppercase;
     margin: 0;
     margin-right: 8px;
@@ -1371,7 +1394,7 @@ h3.white::before {
 
 /* page-footer */
 
-.page-footer-container {
+.page-footer {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -1442,13 +1465,17 @@ h3.white::before {
     color: rgba(117, 97, 87, 0.3);
 }
 
-.htmlacademy-icon:hover {
-    fill: #756157;
+.htmlacademy-link {
+    display: inline-block;
 }
 
 .htmlacademy-link:focus {
     fill: #756157;
     outline: none;
+}
+
+.htmlacademy-icon:hover {
+    fill: #756157;
 }
 
 .htmlacademy-icon:active {
@@ -1763,7 +1790,7 @@ h3.white::before {
     color: rgba(255, 255, 255, 0.3);
 }
 
-/*
+
 .modal-container-close {
     display: none;
 }

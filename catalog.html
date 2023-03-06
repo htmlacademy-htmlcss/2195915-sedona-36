@@ -48,7 +48,7 @@
       </header>
 
       <main class="main-container main-inner">
-        <div class="page-container">
+
           <section class="catalog-hotels">
             <h2 class="visually-hidden">Каталог гостиниц с фильтрами</h2>
             <div class="catalog-container">
@@ -74,7 +74,7 @@
                         <li class="catalog-filter-item">
 
                           <label class="control">
-                            <input class="visually-hidden control-input" type="checkbox" name="swimming-pool" checked>
+                            <input class="visually-hidden control-input" type="checkbox" name="infrastructure-item" checked value="infrastructure">
                             <span class="control-mark"></span>
                             <span class="control-label">Бассейн</span>
                           </label>
@@ -83,7 +83,7 @@
                         <li class="catalog-filter-item">
 
                           <label class="control">
-                            <input class="visually-hidden control-input" type="checkbox" name="parking" checked>
+                            <input class="visually-hidden control-input" type="checkbox" name="infrastructure-item" checked value="infrastructure">
                             <span class="control-mark"></span>
                             <span class="control-label">Парковка</span>
                           </label>
@@ -92,7 +92,7 @@
                         <li class="catalog-filter-item">
 
                           <label class="control">
-                            <input class="visually-hidden control-input" type="checkbox" name="wifi">
+                            <input class="visually-hidden control-input" type="checkbox" name="infrastructure-item" value="infrastructure">
                             <span class="control-mark"></span>
                             <span class="control-label">Wi-Fi</span>
                           </label>
@@ -110,7 +110,7 @@
                         <li class="catalog-filter-item">
 
                           <label class="control">
-                            <input class="visually-hidden control-input" type="radio" name="housing" value="hotel"
+                            <input class="visually-hidden control-input" type="radio" name="housing-item" value="hotel"
                               checked>
                             <span class="control-mark"></span>
                             <span class="control-label">Гостиница</span>
@@ -120,7 +120,7 @@
                         <li class="catalog-filter-item">
 
                           <label class="control">
-                            <input class="visually-hidden control-input" type="radio" name="housing" value="hotel">
+                            <input class="visually-hidden control-input" type="radio" name="housing-item" value="hotel">
                             <span class="control-mark"></span>
                             <span class="control-label">Мотель</span>
                           </label>
@@ -129,7 +129,7 @@
                         <li class="catalog-filter-item">
 
                           <label class="control">
-                            <input class="visually-hidden control-input" type="radio" name="housing" value="hotel">
+                            <input class="visually-hidden control-input" type="radio" name="housing-item" value="hotel">
                             <span class="control-mark"></span>
                             <span class="control-label">Апартаменты</span>
                           </label>
@@ -333,18 +333,18 @@
             </div>
             <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
               <label class="newsletter-label">
-                <input class="field field-catalog" type="email" placeholder="Ваш e-mail" name="newsletter-email"
+                <input class="field field-catalog" type="email" value="Ваш e-mail" name="newsletter-email"
                   required>
               </label>
               <button class="newsletter-button" type="submit">Подписаться</button>
             </form>
 
           </section>
-        </div>
+
       </main>
 
       <footer class="page-footer">
-        <div class="page-footer-container">
+
           <section class="footer-social">
             <h2 class="visually-hidden">Давайте дружить!</h2>
             <ul class="footer-social-list">
@@ -402,7 +402,7 @@
 
             </a>
           </div>
-        </div>
+
       </footer>
     </div>
   </body>
